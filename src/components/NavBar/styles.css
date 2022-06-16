@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&family=Roboto:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  justify-content: space-between;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+  max-width: 100%;
+  height: 100px;
+  padding-left: 140px;
+  padding-right: 177px;
+  border-bottom: 1px solid #fab52b;
+}
+
+.navbar {
+  flex: 50%;
+}
+.nav-btn {
+  flex: 15%;
+  align-items: center;
+}
+
+.section-input {
+  flex: 25%;
+  border: none;
+}
+
+.nav-btn .btn-criar-conta {
+  align-items: center;
+  background: transparent url("../../images/Group\ 5.svg") 0% 0% no-repeat
+    padding-box;
+  top: 34px;
+  left: 821px;
+  width: 139px;
+  height: 34px;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-btn .btn-login {
+  align-items: center;
+  background: transparent url("../../images/Group\ 4.svg") 0% 0% no-repeat
+    padding-box;
+  top: 34px;
+  left: 1182px;
+  width: 101px;
+  height: 34px;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-login:hover {
+  background-size: 100px;
+}
+
+.btn-criar-conta:hover {
+  background-size: 138px;
+}
+
+.section-input .nav-input .input-search {
+  background: transparent url("../../images/Search.svg") 0% 0% no-repeat
+    padding-box;
+  top: 28px;
+  left: 1304px;
+  width: 439px;
+  height: 44px;
+  align-items: center;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  color: brown;
+  text-decoration: none;
+}
+
+.navbar-logo {
+  background: transparent url("../../images/Logo.svg") 0% 0% no-repeat
+    padding-box;
+  top: 0px;
+  left: 140px;
+  width: 124px;
+  height: 100px;
+}
+
+.container .navbar .nav-item {
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  letter-spacing: 3px;
+  justify-content: space-between;
+  margin-left: 32px;
+  top: 39px;
+  left: 431px;
+  width: 328px;
+  height: 24px;
+  color: #808080;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
