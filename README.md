@@ -8,7 +8,7 @@ Projeto para desenvolver um layout ( https://xd.adobe.com/view/896646fd-bb51-4e8
 ---
 ## 🥳 Demonstração
 <div align="center" >
-  <img src="[https://github.com/vsdiaman/TesteLeadster/blob/main/gitLeadster.gif](https://github.com/vsdiaman/projetoteste-front/blob/main/src/gif/SambaGrap.gif)" alt="demo-web" height="425">
+  <img src="https://github.com/vsdiaman/projetoteste-front/blob/main/src/gif/SambaGrap.gif?raw=true" alt="demo-web" height="425">
 </div>
 
 To see the **web**, click here: [Go Site](https://young-fjord-13191.herokuapp.com/)<br />
